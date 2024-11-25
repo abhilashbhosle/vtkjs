@@ -4,12 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import STLViewer from './STLViewer';
+import Annotations from './Annotations';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <STLViewer/>
+    {/* <STLViewer/> */}
+    <Annotations/>
   </React.StrictMode>
 );
 
